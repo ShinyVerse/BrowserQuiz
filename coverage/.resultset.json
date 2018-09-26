@@ -1,10 +1,26 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/laura/Projects/BrowserQuiz/spec/feature/homepage_spec.rb": [
-
+      "/Users/laura/Projects/BrowserQuiz/spec/feature/quizpage_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/laura/Projects/BrowserQuiz/spec/unit/quiz_master_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
       ]
     },
-    "timestamp": 1537953915
+    "timestamp": 1537955015
   }
 }
