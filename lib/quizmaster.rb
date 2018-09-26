@@ -1,6 +1,9 @@
-class QuizMaster
+require 'pg'
 
-  def self.question
-    "What Pokemon type is Squirtle?"
+class QuizMaster
+  def self.questions
+    connection = PG.connect(dbname: 'quiz_questions')
+    result = connection.exec('SELECT * FROM questionsanswers;')
+    result.map {|quiz| quiz}
   end
 end

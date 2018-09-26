@@ -8,11 +8,11 @@
   <body>
     <h1>PROVE YOUR KNOWLEDGE!</h1>
     <form action="/answer" method="post">
-      <h2> <%= @question %></h2>
-      <button type="submit" name="answer"></button>
-      <button type="submit" name="answer"></button>
-      <button type="submit" name="answer"></button>
-      <button type="submit" name="answer"></button>
+      <h2> <%= @quiz['question'] %></h2>
+      <button type="submit" value="" name="answer"><%= @quiz['answer1']  %></button>
+      <button type="submit" value="" name="answer"><%= @quiz['answer2']  %></button>
+      <button type="submit" value="" name="answer"><%= @quiz['answer3']  %></button>
+      <button type="submit" value="" name="answer"><%= @quiz['answer4']  %></button>
     </form>
   </body>
 </html>

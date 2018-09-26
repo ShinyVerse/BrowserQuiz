@@ -9,7 +9,31 @@
         null,
         null
       ],
+      "/Users/laura/Projects/BrowserQuiz/spec/unit/quiz_god_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null
+      ],
       "/Users/laura/Projects/BrowserQuiz/spec/unit/quiz_master_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/laura/Projects/BrowserQuiz/spec/unit/quiz_teller_spec.rb": [
         1,
         null,
         1,
@@ -21,6 +45,6 @@
         null
       ]
     },
-    "timestamp": 1537955015
+    "timestamp": 1537965654
   }
 }
